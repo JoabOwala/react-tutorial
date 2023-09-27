@@ -1,10 +1,16 @@
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
 .nav{
     display: flex;
     justify-content: space-between; /*space between the children */
     align-items: center;
 }
 .nav-logo{
-    width: 60px;
+    width: 30px;
+    height: 30px;
 }
 .nav-items{
     list-style: none;
@@ -13,4 +19,9 @@
 
 .nav-items > li{
     padding: 10px;
+    text-emphasis: 2rem;
+}
+
+.logi{
+    font-weight: bold;
 }
