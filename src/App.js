@@ -1,12 +1,14 @@
 
 import React from 'react';
 import Header from './Header';
-
+import Body from './Body';
+import Footer from './Footer';
 function App() {
   return (
     <>
     <Header />
-    <h1>React Tutorial</h1>
+    <Body />
+    <Footer />
     </>
   );
 }
